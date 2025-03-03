@@ -1,0 +1,32 @@
+//Task 2 html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Business Dashboard</title>
+    <style>
+        .metric-card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="dashboard">
+        <div class="metric-card" id="revenueCard">
+            <h3>Revenue</h3>
+            <p>$0</p>
+        </div>
+        <div class="metric-card" id="profitCard">
+            <h3>Profit</h3>
+            <p>$0</p>
+        </div>
+        <div class="metric-card" id="expensesCard">
+            <h3>Expenses</h3>
+            <p>$0</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
