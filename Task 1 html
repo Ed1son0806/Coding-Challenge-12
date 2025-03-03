@@ -1,0 +1,19 @@
+//Task 1 html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Business Dashboard</title>
+    <style>
+        .metric-card {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <div id="dashboard"></div>
+    <script src="script.js"></script>
+</body>
+</html>
