@@ -1,0 +1,28 @@
+//Task 4 html
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Dashboard</title>
+    <style>
+        #customerSection {
+            padding: 20px;
+            background-color: #f0f0f0;
+        }
+        .customer-card {
+            padding: 10px;
+            margin: 10px;
+            background-color: white;
+            border: 1px solid #ccc;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div id="customerSection">
+        <div class="customer-card">Customer 1</div>
+        <div class="customer-card">Customer 2</div>
+        <div class="customer-card">Customer 3</div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
